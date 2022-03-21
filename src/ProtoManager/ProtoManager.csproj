@@ -5,17 +5,19 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>1.0.1</PackageVersion>
+        <PackageId>Gbms.ProtoManager</PackageId>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Gbms.SmsActivator.SmsHub" Version="1.0.0"/>
-        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0-preview.2.22152.2"/>
-        <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.0-preview.2.22152.2"/>
-        <PackageReference Include="PuppeteerSharp" Version="6.2.0"/>
+        <PackageReference Include="Gbms.SmsActivator.SmsHub" Version="1.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0-preview.2.22152.2" />
+        <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.0-preview.2.22152.2" />
+        <PackageReference Include="PuppeteerSharp" Version="6.2.0" />
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\ProtoManager.Abstractions\ProtoManager.Abstractions.csproj"/>
+        <ProjectReference Include="..\ProtoManager.Abstractions\ProtoManager.Abstractions.csproj" />
     </ItemGroup>
 
 </Project>
